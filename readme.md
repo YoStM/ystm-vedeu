@@ -18,7 +18,10 @@ I want to make the website more dynamic so that whenever I want to add a new fea
 
     * Modify code base in a way that I could add new features and avoid changing the code base.
     * Create English contents.
-    * Make sure the user can find the website easily - From my [github profile](https://github.com/YoStM "YoStM - github.com"), from my [linkedin profile](https://www.linkedin.com/in/yohan-saint-martin-b7068151/ "Yohan Saint-Martin - LinkedIn"). All my social networks profile should then point the webiste et the website to all social networks.
+    * Make sure the user can find the website easily, 
+        from my [github profile](https://github.com/YoStM "YoStM - github.com"),
+        from my [linkedin profile](https://www.linkedin.com/in/yohan-saint-martin-b7068151/ "Yohan Saint-Martin - LinkedIn").
+        All my social networks profile should then point the webiste et the website to all social networks.
     * Make sure the website ensures accessibility features for people that suffer from impaired vision.
     * Write a manifest to explain why some of the projects were more meaningfull to me.
     * Create a portfolio page, which would showcase the projects I liked the most.
@@ -42,7 +45,8 @@ Obviously, I want to make sure I keep things ***simple*** and ***maintanable***.
 ### Development
     - [x] Create app entry point - index.php
     - [ ] Components
-        - [ ] Create several "components" to be included on webpage dynamically - i.e. header, footer, forms, etc...
+        - [ ] Create several "components" to be included on webpage dynamically
+                i.e. headers, navbars, footers, etc.
         - [ ] Structure the components so they are easy to include and dynamic.
     - [ ] Accessibility feature
         - [ ] Colors
