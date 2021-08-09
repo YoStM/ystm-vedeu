@@ -42,7 +42,8 @@ In fact, all my social networks profile should point the webiste and the website
 
 ### Development
     - [x] Create app entry point - index.php
-    - [ ] Components
+    - [ ] Re-use v1 code base
+    - [ ] Breakdown v1 code base into several components
         - [ ] Create several "components" to be included on webpage dynamically
                 i.e. headers, navbars, footers, etc.
         - [ ] Structure the components so they are easy to include and dynamic.
