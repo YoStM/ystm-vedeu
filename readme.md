@@ -21,13 +21,15 @@ I want to make the website more dynamic so that whenever I want to add a new fea
     * Make sure the user can find the website easily, 
         from my [github profile](https://github.com/YoStM "YoStM - github.com"),
         from my [linkedin profile](https://www.linkedin.com/in/yohan-saint-martin-b7068151/ "Yohan Saint-Martin - LinkedIn").
-        All my social networks profile should then point the webiste et the website to all social networks.
+        All my social networks profile should point the webiste and the website to all social networks.
     * Make sure the website ensures accessibility features for people that suffer from impaired vision.
     * Write a manifest to explain why some of the projects were more meaningfull to me.
     * Create a portfolio page, which would showcase the projects I liked the most.
     * Add one or more features that would give a hint of what I can do with php.
 
 Obviously, I want to make sure I keep things ***simple*** and ***maintanable***. I also want to ensure ***consistency*** throughout the website and a ***decent user experience***.
+I want to make sure the user can find the website easily, from my [github profile](https://github.com/YoStM "YoStM - github.com"), from my [linkedin profile](https://www.linkedin.com/in/yohan-saint-martin-b7068151/ "Yohan Saint-Martin - LinkedIn").
+In fact, all my social networks profile should point the webiste and the website to all social networks.
 
 ## Task list [^1]
 
