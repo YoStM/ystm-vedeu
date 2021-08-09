@@ -16,7 +16,7 @@ I want to make the website more dynamic so that whenever I want to add a new fea
 
 ## Objectives
 
-    * Modify code base in a way that I could add new features and avoid changing the code base.
+    * Modify the structure of the code in a way that I could add new features and avoid changing the code base.
     * Create English contents.
     * Ensure accessibility features for people that suffer from impaired vision.
     * Write a manifest to explain why some of the projects were more meaningfull to me.
