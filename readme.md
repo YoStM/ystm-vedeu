@@ -2,8 +2,8 @@
 
 [My first personnal website is online](http://www.yohan-saint-martin.fr "Yohan Saint-Martin, Développeur web"), and many people found it ***pleasant*** and ***good looking***.
 I love the fact that I got so many good feedbacks but to be honest, programmatically speaking, the website is not perfect.
-I happen to have somet time to kill so I decided to start putting more thoughts into the structure of the code.
-I want to make the website more dynamic so that whenever I want to add a new feature, I don't have to restructue the code base.
+I happen to have some time to kill so I decided to start putting more thoughts into the structure of the code.
+I want to make the website more dynamic so that whenever I want to add a new feature, I don't have to rebuild the code base.
 
 -----------------------------
 
