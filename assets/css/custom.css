@@ -64,13 +64,19 @@ body {
 .canard-darker {
     background-color: #033345;
     color: white;
-    padding: 15rem 0rem 3rem 0rem;
-    margin-top: -13rem;
+    padding: 11rem 0rem 3rem 0rem;
+    margin-top: -15rem;
 } 
 
+.footer {
+    background-color: #033345;
+    color: white;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
 .circle {
-    width: 130px;
-    height: 130px;
+    width: auto;
+    height: 105px;
     border-radius: 50%;
 }
 
