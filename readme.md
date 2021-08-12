@@ -32,8 +32,8 @@ In fact, all my social networks profile should point the webiste and the website
 ### Preparation
     - [x] Create repo ystm-vedeu
     - [x] Create readme.md
-    - [ ] Decide on a proper site tree
-    - [ ] Decide on two or three different page layouts
+    - [x] Decide on a proper site tree
+    - [x] Decide on two or three different page layouts
     - [ ] Translate french content into english
     - [ ] Manifest
         - [ ] Write manifest

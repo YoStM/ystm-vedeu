@@ -1,17 +1,3 @@
 <?php
-?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Français</title>
-</head>
-
-<body>
-    <h1>Bienvenue</h1>
-</body>
-
-</html>
+$uri = "page_content/accueil_content.php";
+require_once "base_layout.php";
