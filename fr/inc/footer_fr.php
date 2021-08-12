@@ -11,7 +11,10 @@
             </div>
             <div class="p-1">
                 <small>Yohan SAINT-MARTIN - YoStM. </small>
-                <address>Somewhere on a planet known as "The Earth" 🌍</address>
+                <p>
+                <address>Somewhere on a planet known as "The Earth"</address>
+                </p>
+                <p>🌍</p>
             </div>
         </section>
         <section id="sn-footer" class="text-center">
