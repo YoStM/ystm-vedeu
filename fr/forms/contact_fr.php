@@ -1,4 +1,4 @@
-<form action="contact.php" method="POST" class="container">
+<form action="contact.php" method="POST" class="container p-5">
     <div class="mx-auto col-lg-8 col-md-10 col-sm-12">
         <div class="row justify-content-around">
             <label for="name" class="col-lg-6 col-md-6 col-sm-11 d-sm-block">
