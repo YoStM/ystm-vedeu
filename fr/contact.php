@@ -1,4 +1,7 @@
 <?php
+$username = getenv('SMTP_USERNAME');
+$password = getenv('SMTP_PASSWORD');
+$host = getenv('SMTP_HOST');
 $hero_id = "hero";
 $hero_title = "Contactez-moi !";
 $hero_subtitle = "Que puis-je faire pour vous ?";
@@ -27,10 +30,10 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
         //smtp settings
         // $mail_to_send->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail_to_send->isSMTP();
-        $mail_to_send->Host = "ssl0.ovh.net";
+        $mail_to_send->Host = $host;
         $mail_to_send->SMTPAuth = true;
-        $mail_to_send->Username = "contact@yohan-saint-martin.fr";
-        $mail_to_send->Password = "gibson333";
+        $mail_to_send->Username = $username;
+        $mail_to_send->Password = $password;
         $mail_to_send->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail_to_send->Port = 465;
 
