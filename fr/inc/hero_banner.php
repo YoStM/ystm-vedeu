@@ -3,6 +3,6 @@
     <h1 class="h3">Yohan SAINT-MARTIN</h1>
     <h2 class="mt-3 h1">Développeur web</h2>
     <p>avec une sensibilité "back-end"</p>
-    <a href="#skils">En savoir plus</a>
+    <a href="#skills">En savoir plus</a>
     <?php require "bubbles.php" ?>
 </section>
