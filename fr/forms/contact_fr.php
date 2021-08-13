@@ -1,10 +1,16 @@
 <?php
 ?>
 <?php if (!empty($errors)) : ?>
-    <p class="alert alert-warning text-center">Formulaire invalide !</p>
+    <div class="alert alert-warning alert-dismissible text-center" role="alert" id="liveAlert">
+        Formulaire invalide !
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 <?php endif ?>
 <?php if ($success) : ?>
-    <p class="alert alert-success text-center">Votre message a bien été transmis, merci !</p>
+    <div class="alert alert-success alert-dismissible text-center" role="alert" id="liveAlert">
+        Votre message a bien été transmis, merci !
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
 <?php endif ?>
 <form action="" method="POST" class="container p-5">
     <div class="mx-auto col-lg-8 col-md-10 col-sm-12">
