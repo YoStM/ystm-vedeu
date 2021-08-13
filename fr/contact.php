@@ -26,9 +26,6 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
         require_once "forms/PHPMailer/SMTP.php";
         require_once "forms/PHPMailer/Exception.php";
         $email = new Email($name, $email_addr, $message);
-        var_dump($email);
-
-        var_dump($email->getErrors());
         if ($email->isValid()) {
             $mail_to_send = new PHPMailer(true);
 
