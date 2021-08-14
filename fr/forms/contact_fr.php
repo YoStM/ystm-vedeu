@@ -17,14 +17,14 @@
         <div class="row justify-content-around">
             <label for="name" class="col-lg-6 col-md-6 col-sm-11 d-sm-block">
                 <p>Nom :</p>
-                <input value="<?= $_POST['name'] ?? '' ?>" type="text" name="name" id="name" class="form-control form-control-lg <?= isset($errors['name']) ? 'is-invalid' : '' ?>" required />
+                <input value="<?= htmlentities($_POST['name'] ?? '') ?>" type="text" name="name" id="name" class="form-control form-control-lg <?= isset($errors['name']) ? 'is-invalid' : '' ?>" required />
                 <?php if (isset($errors['name'])) : ?>
                     <p class="invalid-feedback"><?= $errors['name'] ?></p>
                 <?php endif ?>
             </label>
             <label for="email" class="col-lg-6 col-md-6 col-sm-11 d-sm-block">
                 <p>eMail :</p>
-                <input value="<?= $_POST['email'] ?? '' ?>" type="text" name="email" id="email" class="form-control form-control-lg <?= isset($errors['email']) ? 'is-invalid' : '' ?>" required />
+                <input value="<?= htmlentities($_POST['email'] ?? '') ?>" type="text" name="email" id="email" class="form-control form-control-lg <?= isset($errors['email']) ? 'is-invalid' : '' ?>" required />
                 <?php if (isset($errors['email'])) : ?>
                     <p class="invalid-feedback"><?= $errors['email'] ?></p>
                 <?php endif ?>
@@ -32,7 +32,7 @@
         </div>
         <label for="message" class="mx-auto d-block col-lg-12 col-md-12 col-sm-11 my-5">
             <p>Message :</p>
-            <textarea name="message" id="message" class="form-control form-control-lg <?= isset($errors['message']) ? 'is-invalid' : '' ?>" rows="5" required><?= $_POST['message'] ?? '' ?></textarea>
+            <textarea name="message" id="message" class="form-control form-control-lg <?= isset($errors['message']) ? 'is-invalid' : '' ?>" rows="5" required><?= htmlentities($_POST['message'] ?? '') ?></textarea>
             <?php if (isset($errors['message'])) : ?>
                 <p class="invalid-feedback"><?= $errors['message'] ?></p>
             <?php endif ?>

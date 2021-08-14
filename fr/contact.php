@@ -17,9 +17,9 @@ use PHPMailer\PHPMailer\Exception;
 if (isset($_POST['email']) && isset($_POST['message'])) {
     try {
 
-        $name = htmlentities($_POST['name']);
-        $email_addr = htmlentities($_POST['email']);
-        $message = htmlentities($_POST['message']);
+        $name = htmlspecialchars($_POST['name']);
+        $email_addr = htmlspecialchars($_POST['email']);
+        $message = htmlspecialchars($_POST['message']);
 
         require_once "forms/Email.php";
         require_once "forms/PHPMailer/PHPMailer.php";
