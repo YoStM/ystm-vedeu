@@ -171,7 +171,7 @@
 </section>
 
 <section class="canard-darker text-center">
-    <div class="p-3">
+    <div class="p-5 mt-3">
         <p class="h1 my-3">Pensez-y !</p>
         <p class="my-3">Il est fortement recommander de me laisser un message pour en savoir
             plus
