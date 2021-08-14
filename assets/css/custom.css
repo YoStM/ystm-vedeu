@@ -395,6 +395,12 @@ body {
         padding: 9rem 0rem 3rem 0rem;
         margin-top: -7rem;
     }
+
+    .footer {
+        background-color: #033345;
+        color: white;
+        padding: 7rem 0rem 5rem 0rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -502,4 +508,10 @@ body {
         padding: 13rem 0rem 3rem 0rem;
         margin-top: -11rem;
     } 
+
+    .footer {
+        background-color: #033345;
+        color: white;
+        padding: 7rem 0rem 5rem 0rem;
+    }
 }

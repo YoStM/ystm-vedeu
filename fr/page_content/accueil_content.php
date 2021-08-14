@@ -89,7 +89,7 @@
                     une maquette à l'aide des frameworks bien connus tels que Bootstrap et TailwindCss.
                 </p>
                 <div class="d-flex justify-content-center align-items-center">
-                    <img src="./assets/img/PikPng.com_javascript-logo-png_1506141.png" alt="logo HTML CSS JavaScript" height="55px">
+                    <img src="../../assets/img/PikPng.com_javascript-logo-png_1506141.png" alt="logo HTML CSS JavaScript" height="55px">
                 </div>
             </div>
         </div>
@@ -110,13 +110,13 @@
                 </p>
                 <div class="d-flex justify-content-around align-items-center">
                     <div class="d-flex flex-column align-items-center justify-content-center mb-3">
-                        <img src="./assets/img/symfony_black_02.svg" alt="Logo Symfony" height="55px" class="symfony">
+                        <img src="../../assets/img/symfony_black_02.svg" alt="Logo Symfony" height="55px" class="symfony">
                         <small>
                             PHP & Symfony<br />
                         </small>
                     </div>
                     <div class="d-flex flex-column align-items-center justify-content-center">
-                        <img src="./assets/img/Ruby_on_Rails-logo.png" alt="Logo Ruby on rails" height="55px">
+                        <img src="../../assets/img/Ruby_on_Rails-logo.png" alt="Logo Ruby on rails" height="55px">
                         <small>
                             Ruby on Rails<br />
                         </small>
