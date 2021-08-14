@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="d-flex flex-column justify-content-evenly align-items-center">
-        <section id="logo-footer" class="p-3 d-flex justify-content-center align-items-center">
+        <section id="logo-footer" class="p-5 d-flex justify-content-center align-items-center">
             <div class="bg-light circle">
                 <img src="../../assets/img/ystm-logov2.png" alt="Logo YoStM" height="105px" />
             </div>
