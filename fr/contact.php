@@ -1,7 +1,7 @@
 <?php
-$username = "contact@yohan-saint-martin.fr";
-$password = "/3mEr0de3.14_5@ng";
-$host = "ssl0.ovh.net";
+$username = getenv('SMTP_USERNAME');
+$password = getenv('SMTP_PASSWORD');
+$host = getenv('SMTP_HOST');
 $hero_id = "hero";
 $hero_title = "Contactez-moi !";
 $hero_subtitle = "Que puis-je faire pour vous ?";
