@@ -27,3 +27,15 @@ function nav_items(string $link_class): array
         nav_item("../../assets/CV_YohanSTMARTIN-DeveloppeurWeb.pdf", "CV", $link_class, true)
     ];
 }
+
+function linkTo(string $url, string $url_title, string $styles, bool $targetBlank = false)
+{
+    if ($targetBlank == true) {
+        $target = '_blank';
+    } else {
+        $target = '';
+    }
+    return <<<HTML
+    <a href="{$url}" class="{$styles}" target="$target">$url_title</a>
+HTML;
+}

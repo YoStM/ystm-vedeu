@@ -1,7 +1,7 @@
 <?php
-$username = getenv('SMTP_USERNAME');
-$password = getenv('SMTP_PASSWORD');
-$host = getenv('SMTP_HOST');
+$username = "contact@yohan-saint-martin.fr";
+$password = "/3mEr0de3.14_5@ng";
+$host = "ssl0.ovh.net";
 $hero_id = "hero";
 $hero_title = "Contactez-moi !";
 $hero_subtitle = "Que puis-je faire pour vous ?";
@@ -50,6 +50,8 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
 
             $mail_to_send->send();
             $success = true;
+            $hero_title = "";
+            $hero_subtitle = "Merci pour votre message.";
         } else {
             $errors = $email->getErrors();
         }
