@@ -55,4 +55,4 @@ In fact, all my social networks profile should point the webiste and the website
 
 [^1]: This task list may change as I progress through the app development.
 
-![YoStM logo](/assets/img/yo_stm-the_logo.svg "Logo YoStM")
+![YoStM logo](/assets/img/ystm-logov2.png "Logo YoStM")
