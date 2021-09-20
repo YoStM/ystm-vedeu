@@ -49,7 +49,7 @@ In fact, all my social networks profile should point the webiste and the website
         - [x] Structure the components so they are easy to include and dynamic.
     - [ ] Accessibility feature
         - [ ] Colors
-        - [ ] Responsive design
+        - [x] Responsive design
     
 
 
