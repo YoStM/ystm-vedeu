@@ -1,4 +1,6 @@
 <?php
+$title = "Yohan StM - Contactez-moi";
+$seo_context = "contact";
 $username = getenv('SMTP_USERNAME');
 $password = getenv('SMTP_PASSWORD');
 $host = getenv('SMTP_HOST');
