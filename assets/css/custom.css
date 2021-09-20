@@ -10,7 +10,16 @@ body {
 
 .hero-banner {
     position: relative;
-    padding: 17rem;
+    padding: 7rem;
+}
+
+.hero-banner > img {
+    height: 320px;
+    width: auto;
+    position: relative;
+    z-index: 5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 55px;
 }
 
 .hero-banner > h1 {
@@ -48,20 +57,14 @@ body {
     height: 100vh;
 }
 
-.canard-blue{
+.canard-darker-start {
     background-color: #033345;
     color: white;
-    padding: 3rem;
+    padding: 3rem 0rem 11rem 0rem;
+    margin-bottom: -15rem;
 }
-/* 
-.canard-gray {
-    background-color: #32768E;
-    color: white;
-    padding: 3rem;
-}
-*/
 
-.canard-darker {
+.canard-darker-end {
     background-color: #033345;
     color: white;
     padding: 11rem 0rem 3rem 0rem;
@@ -71,7 +74,7 @@ body {
 .footer {
     background-color: #033345;
     color: white;
-    padding: 7rem 0rem 5rem 0rem;
+    padding: 3rem 0rem;
 }
 
 .circle {
@@ -127,6 +130,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: 0;
 }
 
 #bubbles div {
@@ -281,7 +285,7 @@ body {
 }
 
 /* Media queries */
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .navbar-brand img {
         height: 95px;
         width: auto;
@@ -289,7 +293,42 @@ body {
 
     .hero-banner {
         position: relative;
-        padding: 11rem 1.75rem 11rem 1.75rem;
+        padding: 3.75rem 1.75rem;
+    }
+
+    .hero-banner > img {
+        height: 160px;
+        width: auto;
+        position: relative;
+        z-index: 5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 55px;
+    }
+    
+    .hero-banner > h1 {
+        position: relative;
+        z-index: 5;
+    } 
+
+    .hero-banner > p {
+        position: relative;
+        z-index: 5;
+    }
+
+    .hero-banner > a {
+        position: relative;
+        z-index: 5;
+        border: 1px solid #065978;
+        border-radius: 1.5rem;
+        color: #065978;
+        padding: 9px;
+    }
+
+
+    .hero-banner > a:hover {
+        position: relative;
+        z-index: 5;
+        animation: animateMoreButton 0.55s;
     }
 
     #bubbles {
@@ -388,18 +427,25 @@ body {
     .skills {
         padding: 1.75rem 0.5rem 1.75rem 0.5rem;
     }
-
-    .canard-darker {
+    
+    .canard-darker-start {
         background-color: #033345;
         color: white;
-        padding: 9rem 0rem 3rem 0rem;
-        margin-top: -7rem;
+        padding: 9rem .75rem 11rem .75rem;
+        margin-bottom: -11rem;
+    }
+    
+    .canard-darker-end {
+        background-color: #033345;
+        color: white;
+        padding: 9rem 0rem 1.75rem 0rem;
+        margin-top: -11rem;
     }
 
     .footer {
         background-color: #033345;
         color: white;
-        padding: 7rem 0rem 5rem 0rem;
+        padding: 1rem 0rem;
     }
 }
 
@@ -411,7 +457,42 @@ body {
 
     .hero-banner {
         position: relative;
-        padding: 17rem 3.5rem 17rem 3.5rem;
+        padding: 15rem 3.5rem;
+    }
+    
+    .hero-banner > img {
+        height: 160px;
+        width: auto;
+        position: relative;
+        z-index: 5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 55px;
+    }
+    
+    .hero-banner > h1 {
+        position: relative;
+        z-index: 5;
+    } 
+
+    .hero-banner > p {
+        position: relative;
+        z-index: 5;
+    }
+
+    .hero-banner > a {
+        position: relative;
+        z-index: 5;
+        border: 1px solid #065978;
+        border-radius: 1.5rem;
+        color: #065978;
+        padding: 9px;
+    }
+
+
+    .hero-banner > a:hover {
+        position: relative;
+        z-index: 5;
+        animation: animateMoreButton 0.55s;
     }
 
     #bubbles div:nth-child(1){
@@ -502,10 +583,17 @@ body {
         padding: 1.75rem 0.5rem 1.75rem 0.5rem;
     }
 
-    .canard-darker {
+    .canard-darker-start {
         background-color: #033345;
         color: white;
-        padding: 13rem 0rem 3rem 0rem;
+        padding: 9rem 0rem 11rem 0rem;
+        margin-bottom: -11rem;
+    }
+    
+    .canard-darker-end {
+        background-color: #033345;
+        color: white;
+        padding: 11rem 0rem 9rem 0rem;
         margin-top: -11rem;
     }
 }
