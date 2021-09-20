@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_URI'] == "/") {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Je suis Yohan SAINT-MARTIN, Développeur web fullstack avec, tout de même, une préférence prononcée pour la partie back-end.">
+    <meta name="description" content="<?= $seo_description ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php foreach (seoMetaList($seo_context) as $seo_meta_tag) : ?>
         <?= $seo_meta_tag ?>

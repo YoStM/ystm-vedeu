@@ -1,5 +1,6 @@
 <?php
 $title = "Yohan StM - Contactez-moi";
+$seo_description="Vous souhaitez m'encourager ou en savoir plus sur mon parcours de développeur web? contactez-moi!";
 $seo_context = "contact";
 $username = getenv('SMTP_USERNAME');
 $password = getenv('SMTP_PASSWORD');
