@@ -24,7 +24,7 @@ function nav_items(string $link_class): array
         nav_item('../fr/accueil.php', 'Accueil', $link_class),
         nav_item('../fr/manifeste.php', 'Manifeste', $link_class . ' disabled'),
         nav_item('../fr/contact.php', 'Contact', $link_class),
-        nav_item("../../assets/CV_YohanSTMARTIN-DeveloppeurWeb.pdf", "CV", $link_class, true)
+        nav_item("../../assets/cv_developpeur-web_yohan-saint-martin.pdf", "CV", $link_class, true)
     ];
 }
 
