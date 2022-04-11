@@ -1,3 +1,5 @@
+// Voici un peu de JS
+// Cela peut sembler basique mais ... "it gets the job done" comme disent les anglosaxons
 const bubbles = document.getElementById('bubbles').children;
 const colors = [
     "#4285F4",
@@ -37,10 +39,6 @@ function changeBubbleColor() {
         addInlineFormatting(bubble_index, color_index);
     }
 }
-//
-// function deleteInlineFormatting(bubble_index) {
-//     bubbles[bubble_index].removeAttribute('style');
-// }
 
 function addInlineFormatting(bubble_index, color_index) {
     bubbles[bubble_index].setAttribute('style', 'border-color: ' + colors[color_index] + '; ' + 'background: ' + colors[color_index] + ';');

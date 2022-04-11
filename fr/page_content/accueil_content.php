@@ -182,5 +182,11 @@
     </a>
 </section>
 <!-- Script bubbles -->
+<!--
+    Allez voir le script et dîtes moi ce que vous en pensez. Je sais, je sais, ce script est basique,
+    mais il a deux gros avantages:
+    1- il fait le job que je lui demande.
+    2- ... c'est moi qui l'ai fait, et j'en suis fier !!!
+ -->
 <script src="/assets/js/bubbles.js"></script>
 <!-- End Script bubbles -->

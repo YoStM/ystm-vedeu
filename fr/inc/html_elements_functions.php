@@ -23,8 +23,7 @@ function nav_items(string $link_class): array
     return [
         nav_item('../fr/accueil.php', 'Accueil', $link_class),
         nav_item('../fr/manifeste.php', 'Manifeste', $link_class . ' disabled'),
-        nav_item('../fr/contact.php', 'Contact', $link_class),
-        nav_item("../../assets/cv_developpeur-web_yohan-saint-martin.pdf", "CV", $link_class, true)
+        nav_item('../fr/contact.php', 'Contact', $link_class)
     ];
 }
 
