@@ -105,22 +105,13 @@
                 <p class="card-text">
                     Concenvoir et construire des bases de données, ajouter des méthodes aux modèles, organiser
                     les controlleurs et les routes des applications web,<br />voilà ce qui me plait.<br />
-                    Avec Symfony ou Rails, je prend beaucoup de plaisir à développer des applications
+                    Avec Nodejs, Symfony ou Rails, je prend beaucoup de plaisir à développer des APIs REST ou des applications
                     construites sur l'architecture MVC.<br />
                 </p>
                 <div class="d-flex justify-content-around align-items-center">
-                    <div class="d-flex flex-column align-items-center justify-content-center mb-3">
-                        <img src="../../assets/img/symfony_black_02.svg" alt="Logo Symfony" height="55px" class="symfony">
-                        <small>
-                            PHP & Symfony<br />
-                        </small>
-                    </div>
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                        <img src="../../assets/img/Ruby_on_Rails-logo.png" alt="Logo Ruby on rails" height="55px">
-                        <small>
-                            Ruby on Rails<br />
-                        </small>
-                    </div>
+                    <img src="../../assets/img/Node.js-Logo.wine.png" alt="Node.js" height="90px">
+                    <img src="../../assets/img/symfony-header-logo.svg" alt="Logo Symfony" height="50px" class="symfony">
+                    <img src="../../assets/img/Ruby_on_Rails_logo.png" alt="Logo Ruby on rails" height="50px">
                 </div>
             </div>
         </div>
@@ -181,6 +172,10 @@
         <h2>Me contacter</h2>
     </a>
 </section>
+<!-- Script tooltips -->
+<script src="/assets/js/tooltips.js"></script>
+<!-- End Script tooltips -->
+
 <!-- Script bubbles -->
 <!--
     Allez voir le script et dîtes moi ce que vous en pensez. Je sais, je sais, ce script est basique,
