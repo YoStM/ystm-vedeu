@@ -172,10 +172,6 @@
         <h2>Me contacter</h2>
     </a>
 </section>
-<!-- Script tooltips -->
-<script src="/assets/js/tooltips.js"></script>
-<!-- End Script tooltips -->
-
 <!-- Script bubbles -->
 <!--
     Allez voir le script et dîtes moi ce que vous en pensez. Je sais, je sais, ce script est basique,

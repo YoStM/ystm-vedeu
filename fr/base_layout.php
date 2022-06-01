@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_URI'] == "/") {
         <?php require_once "{$uri}" ?>
     </main>
     <?php require_once "inc/footer_fr.php" ?>
-    <script></script>
+    <script src="../assets//js/tooltips.js"></script>
 </body>
 
 </html>
