@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="m-1 p-3 card col-lg-3 col-md-4 shadow-sm">
+        <div class="m-1 p-3 card col-md-4 shadow-sm">
             <!-- back-end skills -->
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#033345" class="bi bi-server card-img-top" viewBox="0 0 16 16">
                 <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z" />
@@ -109,9 +109,9 @@
                     construites sur l'architecture MVC.<br />
                 </p>
                 <div class="d-flex justify-content-around align-items-center">
-                    <img src="../../assets/img/Node.js-Logo.wine.png" alt="Node.js" height="90px">
-                    <img src="../../assets/img/symfony-header-logo.svg" alt="Logo Symfony" height="50px" class="symfony">
-                    <img src="../../assets/img/Ruby_on_Rails_logo.png" alt="Logo Ruby on rails" height="50px">
+                    <img src="../../assets/img/Node.js-Logo.wine.png" alt="Node.js" width="90px" class="card-img">
+                    <img src="../../assets/img/symfony-header-logo.svg" alt="Logo Symfony" width="90px" class="symfony card-img">
+                    <img src="../../assets/img/Ruby_on_Rails_logo.png" alt="Logo Ruby on rails" width="90px" class="card-img">
                 </div>
             </div>
         </div>
