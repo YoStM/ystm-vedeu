@@ -4,7 +4,7 @@ $seo_description="Vous souhaitez m'encourager ou en savoir plus sur mon parcours
 $seo_context = "contact";
 $username = getenv('SMTP_USERNAME');
 $password = getenv('SMTP_PASSWORD');
-$email = getenv('SMTP_EMAIL');
+$smtp_email = getenv('SMTP_EMAIL');
 $host = getenv('SMTP_HOST');
 $hero_id = "hero";
 $hero_title = "Contactez-moi !";
@@ -15,7 +15,7 @@ $errors = [];
 $success = false;
 
 use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 if (isset($_POST['email']) && isset($_POST['message'])) {
@@ -37,7 +37,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
             $mail_to_send->CharSet = "UTF-8";
 
             //smtp settings
-            // $mail_to_send->SMTPDebug = SMTP::DEBUG_SERVER;
+            $mail_to_send->SMTPDebug = SMTP::DEBUG_SERVER;
             $mail_to_send->isSMTP();
             $mail_to_send->Host = $host;
             $mail_to_send->SMTPAuth = true;
@@ -49,7 +49,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
             //email settings
             $mail_to_send->isHTML(true);
             $mail_to_send->setFrom($email_addr, $name);
-            $mail_to_send->addAddress($email);
+            $mail_to_send->addAddress($smtp_email);
             $mail_to_send->Subject = "Nouveau message de " . $name . " <" . $email_addr . ">";
             $mail_to_send->Body = $message;
 
