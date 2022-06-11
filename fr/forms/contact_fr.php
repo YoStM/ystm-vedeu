@@ -29,6 +29,13 @@
                         <p class="invalid-feedback"><?= $errors['name'] ?></p>
                     <?php endif ?>
                 </label>
+                <label for="firstname" class="col-lg-6 col-md-6 col-sm-11 firstname">
+                    <p>Prénom :</p>
+                    <input value="<?= $_POST['firstname'] ?? '' ?>" type="text" name="firstname" id="firstname" class="form-control form-control-lg <?= isset($errors['firstname']) ? 'is-invalid' : '' ?>" />
+                    <?php if (isset($errors['firstname'])) : ?>
+                        <p class="invalid-feedback"><?= $errors['firstname'] ?></p>
+                    <?php endif ?>
+                </label>
                 <label for="email" class="col-lg-6 col-md-6 col-sm-11 d-sm-block">
                     <p>eMail :</p>
                     <input value="<?= $_POST['email'] ?? '' ?>" type="text" name="email" id="email" class="form-control form-control-lg <?= isset($errors['email']) ? 'is-invalid' : '' ?>" required />

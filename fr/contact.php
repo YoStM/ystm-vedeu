@@ -4,6 +4,7 @@ $seo_description="Vous souhaitez m'encourager ou en savoir plus sur mon parcours
 $seo_context = "contact";
 $username = getenv('SMTP_USERNAME');
 $password = getenv('SMTP_PASSWORD');
+$email = getenv('SMTP_EMAIL');
 $host = getenv('SMTP_HOST');
 $hero_id = "hero";
 $hero_title = "Contactez-moi !";
@@ -21,6 +22,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
     try {
 
         $name = htmlspecialchars($_POST['name']);
+        $firstname = htmlspecialchars($_POST['firstname']);
         $email_addr = htmlspecialchars($_POST['email']);
         $message = htmlspecialchars($_POST['message']);
 
@@ -28,7 +30,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
         require_once "forms/PHPMailer/PHPMailer.php";
         require_once "forms/PHPMailer/SMTP.php";
         require_once "forms/PHPMailer/Exception.php";
-        $email = new Email($name, $email_addr, $message);
+        $email = new Email($name, $firstname, $email_addr, $message);
         if ($email->isValid()) {
             $mail_to_send = new PHPMailer(true);
 
@@ -47,7 +49,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
             //email settings
             $mail_to_send->isHTML(true);
             $mail_to_send->setFrom($email_addr, $name);
-            $mail_to_send->addAddress("contact@yohan-saint-martin.fr");
+            $mail_to_send->addAddress($email);
             $mail_to_send->Subject = "Nouveau message de " . $name . " <" . $email_addr . ">";
             $mail_to_send->Body = $message;
 
