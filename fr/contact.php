@@ -15,7 +15,7 @@ $errors = [];
 $success = false;
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+// use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 if (isset($_POST['email']) && isset($_POST['message'])) {
@@ -37,7 +37,7 @@ if (isset($_POST['email']) && isset($_POST['message'])) {
             $mail_to_send->CharSet = "UTF-8";
 
             //smtp settings
-            $mail_to_send->SMTPDebug = SMTP::DEBUG_SERVER;
+            //$mail_to_send->SMTPDebug = SMTP::DEBUG_SERVER;
             $mail_to_send->isSMTP();
             $mail_to_send->Host = $host;
             $mail_to_send->SMTPAuth = true;
