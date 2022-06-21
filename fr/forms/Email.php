@@ -31,6 +31,9 @@ class Email
         if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
             $errors['email'] = "Merci d'entrée une adresse email valide.";
         }
+        if ($this->email === $_ENV['SMTP_EMAIL']) {
+            $errors['email'] = "Merci d'entrée une adresse email valide.";
+        }
         return $errors;
     }
 
